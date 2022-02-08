@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="description" content="" />
+		<link rel="icon" href="./favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta http-equiv="content-security-policy" content="">
+	<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-84939a2c.css">
+	<link rel="modulepreload" href="/_app/start-57fa334d.js">
+	<link rel="modulepreload" href="/_app/chunks/vendor-1efcbc47.js">
+	<link rel="modulepreload" href="/_app/pages/__layout.svelte-a18f76a0.js">
+	<link rel="modulepreload" href="/_app/pages/index.svelte-324a4836.js">
+		<style>
+			.body-bg {
+				background-color: #9921e8;
+				background-image: linear-gradient(315deg, #9921e8 0%, #5f72be 74%);
+			}
+		</style>
+	</head>
+<body class="body-bg min-h-screen pt-12 md:pt-20 pb-6 px-2 md:px-0" style="font-family:'Lato',sans-serif;">
+    <header class="max-w-lg mx-auto">
+        <a href="#">
+            <h1 class="text-4xl font-bold text-white text-center">Bingo</h1>
+        </a>
+    </header>
+
+    <main class="bg-white max-w-lg mx-auto p-8 md:p-12 my-10 rounded-lg shadow-2xl">
+        <section>
+            <h3 class="font-bold text-2xl">Let's Play Bingo!!!</h3>
+            <p class="text-gray-600 pt-2">Generate some numbers</p>
+        </section>
+
+        <section class="mt-10">
+			<div>
+
+
+
+<button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Call Number
+</button>
+<button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Autoplay
+</button>
+<button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Reset
+</button>
+
+<p class="text-2xl mt-10 mb-10 text-gray-800 text-center">0</p>
+
+<div>
+	<ul></ul></div>
+
+
+		<script type="module" data-hydrate="1yi6cbq">
+		import { start } from "/_app/start-57fa334d.js";
+		start({
+			target: document.querySelector('[data-hydrate="1yi6cbq"]').parentNode,
+			paths: {"base":"","assets":""},
+			session: {},
+			route: true,
+			spa: false,
+			trailing_slash: "never",
+			hydrate: {
+				status: 200,
+				error: null,
+				nodes: [
+					import("/_app/pages/__layout.svelte-a18f76a0.js"),
+						import("/_app/pages/index.svelte-324a4836.js")
+				],
+				url: new URL("http://sveltekit-prerender/"),
+				params: {}
+			}
+		});
+	</script></div>
+        </section>
+    </main>
+
+    <footer class="max-w-lg mx-auto flex justify-center text-white">
+        <a href="#" class="hover:underline">Contact</a>
+        <span class="mx-3">•</span>
+        <a href="#" class="hover:underline">Privacy</a>
+    </footer>
+</body>
+</html>
